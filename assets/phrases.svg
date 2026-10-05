@@ -7,7 +7,7 @@
     .es{font-family:Georgia,'Times New Roman',serif;font-style:italic;fill:#b7a9ff}
   </style>
   <text x="300" y="34" style="animation-delay:0s" class="jp">起きろ。</text>
-  <text x="300" y="34" style="animation-delay:3s" class="es">Levántate.</text>
+  <text x="300" y="34" style="animation-delay:3s" class="es">Arise.</text>
   <text x="300" y="34" style="animation-delay:6s" class="jp">俺だけレベルアップ</text>
   <text x="300" y="34" style="animation-delay:9s" class="es">Solo yo subo de nivel.</text>
   <text x="300" y="34" style="animation-delay:12s" class="jp">影の君主</text>
