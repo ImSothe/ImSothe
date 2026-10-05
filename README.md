@@ -6,7 +6,7 @@
 
 # *You're strong...<br/>but I don't stop leveling up.*
 
-<img src="assets/phrases.svg" width="600" alt="起きろ。 — Levántate." />
+<img src="assets/phrases.svg" width="600" alt="起きろ。 — Arise." />
 
 <img src="assets/arise.jpg" width="100%" alt="Arise" />
 
