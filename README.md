@@ -2,7 +2,7 @@
 
 <img src="assets/banner.jpg" width="100%" alt="Sothe" />
 
-<img src="assets/system.svg" width="560" alt="[ SYSTEM ] ¿Seguro que quieres usar esta habilidad? — ARISE" />
+<img src="assets/system-v2.svg" width="560" alt="[ SYSTEM ] ¿Seguro que deseas continuar? — ARISE" />
 
 # *You're strong...<br/>but I don't stop leveling up.*
 
