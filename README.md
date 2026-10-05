@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Sothe" />
+<img src="assets/banner.jpg" width="100%" alt="Sothe" />
 
 <br/><br/>
 
@@ -14,8 +14,8 @@
 
 <br/><br/>
 
-<img src="assets/panel-gate.svg" width="49%" alt="" />
-<img src="assets/panel-system.svg" width="49%" alt="" />
+<img src="assets/panel-1.jpg" width="49%" alt="" />
+<img src="assets/panel-2.jpg" width="49%" alt="" />
 
 <br/><br/><br/>
 
