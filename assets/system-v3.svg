@@ -20,7 +20,7 @@
     <rect x="46" y="22" width="628" height="206" rx="2" fill="none" stroke="#a594ff" stroke-opacity=".25"/>
     <text x="360" y="58" text-anchor="middle" class="m" font-size="14" letter-spacing="6" fill="#c3b8ff">[ SYSTEM ]</text>
     <line x1="250" y1="72" x2="470" y2="72" stroke="#a594ff" stroke-opacity=".35"/>
-    <text x="360" y="108" text-anchor="middle" class="t" font-size="20" font-weight="700" letter-spacing="1" fill="#ffffff">¿Seguro que deseas continuar?</text>
+    <text x="360" y="108" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="21" letter-spacing="2" fill="#b7a9ff">¿Seguro que deseas continuar?</text>
     <g class="sel">
       <rect x="170" y="140" width="380" height="54" fill="url(#hl)"/>
       <line x1="170" y1="140" x2="550" y2="140" stroke="#a594ff" stroke-opacity=".6"/>
