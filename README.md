@@ -8,9 +8,7 @@
 
 <br/><br/>
 
-# *Weak today.<br/>Stronger every level.*
-
-<hr/>
+# *You're strong...<br/>but I don't stop leveling up.*
 
 昨日の自分を超えろ。
 
