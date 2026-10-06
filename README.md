@@ -6,7 +6,7 @@
 
 # *You're strong...<br/>but I don't stop leveling up.*
 
-<img src="assets/jinwoo-phrases-v3.svg" width="600" alt="起きろ — Arise" />
+<img src="assets/jinwoo-phrases-v4.svg" width="600" alt="起きろ — Arise" />
 
 <img src="assets/arise.jpg" width="100%" alt="Arise" />
 
