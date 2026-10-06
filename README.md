@@ -14,6 +14,4 @@
 <br/>
 <img src="https://skillicons.dev/icons?i=bash,kali,wireshark,mysql,vscode,figma,docker,react&theme=dark" alt="skills" />
 
-<img src="assets/footer.svg" width="100%" alt="" />
-
 </div>
