@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 50" width="600" height="50">
   <style>
-    text{opacity:0;animation:f 36s linear infinite}
-@keyframes f{0%{opacity:0}1.67%{opacity:1}6.67%{opacity:1}8.33%,100%{opacity:0}}
+    text{opacity:0;animation:f 42s linear infinite}
+@keyframes f{0%{opacity:0}1.43%{opacity:1}5.71%{opacity:1}7.14%,100%{opacity:0}}
     text{text-anchor:middle;font-size:20px;fill:#d7d9e0;letter-spacing:2px}
     .jp{font-family:'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP','Noto Sans JP',serif;letter-spacing:4px}
     .es{font-family:Georgia,'Times New Roman',serif;font-style:italic;fill:#b7a9ff}
@@ -18,4 +18,6 @@
   <text x="300" y="34" style="animation-delay:27s" class="es">Los límites existen para romperlos</text>
   <text x="300" y="34" style="animation-delay:30s" class="jp">セキュリティは、破るためにある</text>
   <text x="300" y="34" style="animation-delay:33s" class="es">La seguridad existe para romperla</text>
+  <text x="300" y="34" style="animation-delay:36s" class="jp">誰もが、何かの奴隷だ</text>
+  <text x="300" y="34" style="animation-delay:39s" class="es">Todos somos esclavos de algo</text>
 </svg>
