@@ -2,7 +2,7 @@
 
 <img src="assets/banner.jpg" width="100%" alt="Sothe" />
 
-<img src="assets/system-v3.svg" width="560" alt="[ SYSTEM ] ¿Seguro que deseas continuar? — ARISE" />
+<img src="assets/system-v3.svg" width="560" alt="[ SYSTEM ] Are you sure you want to continue? — ARISE" />
 
 # *You're strong...<br/>but I don't stop leveling up.*
 
