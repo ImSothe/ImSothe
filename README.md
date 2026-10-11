@@ -22,7 +22,7 @@
 
 Computer scientist (informático). I like going from the metal up: Windows internals and native APIs on one side, 3D on the web on the other, and tying it together with automation. I ship things I actually use.
 
-Building in public since **~2 months ago** — a couple of real projects up so far, more coming as they're ready for other people to see.
+Building in public since **~2 months ago** — a few real projects up so far, more coming as they're ready for other people to see.
 
 ## 🛠️ Projects
 
@@ -30,6 +30,7 @@ Building in public since **~2 months ago** — a couple of real projects up so f
 |---|---|
 | **[Sothe Windows Optimizer](https://github.com/ImSothe/Sothe-Windows-Optimizer)** | A power-user Windows tuning tool: 70+ reversible tweaks, nothing hidden behind a "safe mode." WPF/.NET 8, `ntdll` P/Invoke for timer resolution, an ECDSA-signed auto-updater, and 212 automated tests. |
 | **[Industrial Web Template](https://github.com/ImSothe/Industrial-Web-Template)** | A sanitized, portfolio-ready B2B 3D configurator (Three.js + GSAP + polygon-clipping) distilled from a real industrial project, with a hardened reference API (parameterized SQL, XSS/path-traversal defenses, lockout policy). |
+| **[Jarvis Project by Sothe](https://github.com/ImSothe/Jarvis-Project-by-Sothe)** | A voice-driven personal AI assistant for Windows, built on the open-source [OpenJarvis](https://github.com/open-jarvis/OpenJarvis) framework (Apache 2.0). My layer: a native desktop app, hands-free voice with a local wake-word filter that keeps unrelated audio off the cloud, Spotify / PC / OBS control, Instagram and X analytics, and a tool router that cuts the tool-definition tokens per request by up to ~85%. Runs free with a single Gemini key. |
 
 ## 📊 GitHub stats
 
