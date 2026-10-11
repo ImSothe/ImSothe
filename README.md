@@ -32,11 +32,6 @@ Building in public since **~2 months ago** — a few real projects up so far, mo
 | **[Industrial Web Template](https://github.com/ImSothe/Industrial-Web-Template)** | A sanitized, portfolio-ready B2B 3D configurator (Three.js + GSAP + polygon-clipping) distilled from a real industrial project, with a hardened reference API (parameterized SQL, XSS/path-traversal defenses, lockout policy). |
 | **[Jarvis Project by Sothe](https://github.com/ImSothe/Jarvis-Project-by-Sothe)** | A voice-driven personal AI assistant for Windows, built on the open-source [OpenJarvis](https://github.com/open-jarvis/OpenJarvis) framework (Apache 2.0). My layer: a native desktop app, hands-free voice with a local wake-word filter that keeps unrelated audio off the cloud, Spotify / PC / OBS control, Instagram and X analytics, and a tool router that cuts the tool-definition tokens per request by up to ~85%. Runs free with a single Gemini key. |
 
-## 📊 GitHub stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=ImSothe&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=22D3EE&text_color=C9D1D9" alt="GitHub stats" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ImSothe&hide_border=true&background=0D1117&ring=8B5CF6&fire=22D3EE&currStreakLabel=22D3EE" alt="GitHub streak" height="165"/>
-
 ## 📬 Contact
 
 Instagram **[@SoySothe](https://www.instagram.com/soysothe)** · Email **angelbazm@gmail.com**
