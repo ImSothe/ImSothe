@@ -20,7 +20,7 @@
 
 ## 👋 About
 
-Computer scientist (informático). I like going from the metal up: Windows internals and native APIs on one side, 3D on the web on the other, and tying it together with automation. I ship things I actually use.
+Computer scientist (informático). I like building from the ground up: Windows internals and native APIs on one side, 3D on the web on the other, and tying it together with automation. I ship things I actually use.
 
 Building in public since **~2 months ago** — a few real projects up so far, more coming as they're ready for other people to see.
 
