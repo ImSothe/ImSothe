@@ -20,9 +20,9 @@
 
 ## 👋 About
 
-Computer scientist (informático). I like building from the ground up: Windows internals and native APIs on one side, 3D on the web on the other, and tying it together with automation. I ship things I actually use.
+Systems & software builder. I like building from the ground up: Windows internals and native APIs on one side, 3D on the web on the other, and tying it together with automation. I ship things I actually use.
 
-Building in public since **~2 months ago** — a few real projects up so far, more coming as they're ready for other people to see.
+Shipping open-source tools in public — focused on high-performance Windows desktop apps, 3D on the web and AI automation. More coming as they're ready for other people to see.
 
 ## 🛠️ Projects
 
@@ -39,6 +39,6 @@ Building in public since **~2 months ago** — a few real projects up so far, mo
 
 ## 📬 Contact
 
-Instagram **[@SoySothe](https://www.instagram.com/soysothe)** · Email **angelbazm@gmail.com**
+**[LinkedIn](https://www.linkedin.com/in/%C3%A1ngel-baz-monteiro-8196a21a9/)** · **[Email me](mailto:angelbazm@gmail.com)** · **[Instagram @SoySothe](https://www.instagram.com/soysothe)**
 
 </div>
