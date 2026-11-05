@@ -38,7 +38,7 @@ links its tests, so you can judge the result instead of taking my word for it.
 **Windows tuning tool, MIT.** 70 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
 so overlapping tweaks cannot leave the system wrong (a real bug I found, reproduced and fixed). Signed auto-update,
 hardened data folder, calibrated timer resolution.
-<br/><sub>WPF · .NET 8 · P/Invoke · **162 tests, 87.6 % line coverage** (non-UI)</sub>
+<br/><sub>WPF · .NET 8 · P/Invoke · **172 tests, 87.5 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
 
 </td>
 <td width="33%" valign="top">
