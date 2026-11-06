@@ -21,9 +21,9 @@
 
 ## 👋 About
 
-I build things from the ground up and ship them: a Windows tuning tool that can undo what it does, a self-updater that refuses
-unsigned binaries, an expense app that works offline. I care about software that behaves on real machines, so most of what I
-write comes with tests and an honest list of its limits.
+Software & systems builder. I like building from the ground up: Windows internals and native APIs on one side, 3D on the web on the other, and tying it together with automation. I ship things I actually use.
+
+Building in public since August 2026 — 13 repos so far, with tests and documented limits. More coming as they're ready for other people to see.
 
 **How I work:** I design, specify, test and verify; AI assistants (Claude Code) write much of the code. Every project below says so and
 links its tests, so you can judge the result instead of taking my word for it.
