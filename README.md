@@ -1,20 +1,12 @@
-**Systems technician who builds secure Windows tools in C# / .NET.**
-[Toji](https://github.com/ImSothe/Toji-Windows-Optimizer) (70 reversible tweaks) · [SignedUpdater](https://github.com/ImSothe/SignedUpdater) (signed auto-update) · [Finanzas](https://github.com/ImSothe/Finanzas) (offline PWA).
-Open to: Windows systems and automation, or .NET roles · Vigo, remote or relocation.
-
 <div align="center">
 
-<img src="assets/banner.jpg" width="100%" alt="Sothe" />
+# Ángel Baz Monteiro
 
-<img src="assets/system-v3.svg" width="560" alt="[ SYSTEM ] Are you sure you want to continue? — ARISE" />
+**Systems technician who builds secure Windows tools in C# / .NET.**<br/>
+[Toji](https://github.com/ImSothe/Toji-Windows-Optimizer) (70 reversible tweaks) · [SignedUpdater](https://github.com/ImSothe/SignedUpdater) (signed auto-update) · [Finanzas](https://github.com/ImSothe/Finanzas) (offline PWA).<br/>
+Open to: Windows systems and automation, or .NET roles · Spain, remote or relocation.
 
-<img src="assets/jinwoo-phrases-v4.svg" width="600" alt="起きろ — Arise" />
-
-# *You're strong...<br/>but I don't stop leveling up.*
-
-**Windows internals & native APIs · secure desktop software · 3D on the web · automation**
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,powershell,js,nodejs,react,threejs,python,git,github,docker,linux&theme=dark" alt="skills" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,powershell,js,nodejs,react,threejs,python,git,github&theme=dark" alt="C#, .NET, PowerShell, JavaScript, Node.js, React, Three.js, Python, Git" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ángel%20Baz-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%C3%A1ngel-baz-monteiro-8196a21a9/)
 [![Toji](https://img.shields.io/badge/flagship-Toji-8b5cf6)](https://github.com/ImSothe/Toji-Windows-Optimizer)
@@ -33,6 +25,11 @@ write comes with tests and an honest list of its limits.
 links its tests, so you can judge the result instead of taking my word for it.
 
 ## ⭐ Featured
+
+<div align="center">
+<a href="https://github.com/ImSothe/Toji-Windows-Optimizer"><img src="https://raw.githubusercontent.com/ImSothe/Toji-Windows-Optimizer/main/docs/images/toji-demo.gif" width="720" alt="Toji demo: check three tweaks, Apply, then uncheck them and Apply again to revert" /></a>
+<br/><sub>Toji applying three tweaks and reverting them. Registry and backups were verified identical afterwards on a real machine.</sub>
+</div>
 
 <table>
 <tr>
@@ -58,7 +55,7 @@ rollback-safe swap. Written up with its threat model **and its limits**.
 ### [Finanzas](https://github.com/ImSothe/Finanzas) · [live](https://imsothe.github.io/Finanzas/)
 **Expense PWA on your own Google Sheet.** Log an expense in 3 seconds, or photograph a receipt and let Gemini itemise it.
 Offline queue with idempotent replay, hardened Apps Script backend.
-<br/><sub>PWA · Apps Script · Gemini · **132 tests** · MIT</sub>
+<br/><sub>PWA · Apps Script · Gemini · **136 tests** · MIT</sub>
 
 </td>
 </tr>
@@ -70,7 +67,7 @@ Offline queue with idempotent replay, hardened Apps Script backend.
 |---|---|---|
 | **[WindowsTimerResolution](https://github.com/ImSothe/WindowsTimerResolution)** | `NtSetTimerResolution` wrapper with explicit release and **auto-calibration**. Measured: `Sleep(1)` 15.6 ms → 1.5 ms held, 1.2 ms calibrated. Also documents what did *not* work. | .NET 8 · 13 tests · MIT |
 | **[AD Hardware Inventory](https://github.com/ImSothe/AD-Hardware-Inventory)** | Agentless hardware inventory for a Windows domain in one read-only PowerShell script (AD list → parallel WinRM/CIM → CSV). Run in a real 26-computer domain; unreachable machines are reported, not dropped. | PowerShell · MIT |
-| **[AI Hoodie Studio](https://github.com/ImSothe/AI-Hoodie-Studio)** | 3D hoodie configurator: place graphics on a 3D garment, pick the technique per piece, export a production dossier PDF. | Next.js 16 · three.js · Fabric.js · MIT |
+| **[AI Hoodie Studio](https://github.com/ImSothe/AI-Hoodie-Studio)** | 3D hoodie configurator: place graphics on a 3D garment, pick the technique per piece, export a production dossier PDF. | Next.js 16 · three.js · Fabric.js · prototype · MIT |
 | **[Industrial Web Template](https://github.com/ImSothe/Industrial-Web-Template)** | Sanitized B2B 3D configurator distilled from a real industrial project, with a hardened reference API (parameterized SQL, XSS/path-traversal defenses, lockout). | Three.js · GSAP · Node |
 | **[sheetmetal-geometry](https://github.com/ImSothe/sheetmetal-geometry)** | Pure-JS sheet-metal maths: chained bends, K-factor allowance, flat patterns, boolean-merged cut outlines. | JS · 13 tests · MIT |
 | **[Jarvis Project](https://github.com/ImSothe/Jarvis-Project-by-Sothe)** | Voice-driven personal AI assistant for Windows on the open-source [OpenJarvis](https://github.com/open-jarvis/OpenJarvis) framework: native app, local wake-word filter, a tool router that cuts tool-definition tokens per request by up to ~85 %. | Python · Gemini · Apache-2.0 base |
@@ -88,6 +85,21 @@ Offline queue with idempotent replay, hardened Apps Script backend.
 </details>
 
 ---
+
+<details>
+<summary><b>About the name</b></summary>
+
+<br/>
+
+<div align="center">
+
+<img src="assets/banner.jpg" width="640" alt="Sothe" />
+
+*You're strong... but I don't stop leveling up.*
+
+</div>
+
+</details>
 
 <div align="center">
 
