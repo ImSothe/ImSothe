@@ -1,3 +1,7 @@
+**Systems technician who builds secure Windows tools in C# / .NET.**
+[Toji](https://github.com/ImSothe/Toji-Windows-Optimizer) (70 reversible tweaks) · [SignedUpdater](https://github.com/ImSothe/SignedUpdater) (signed auto-update) · [Finanzas](https://github.com/ImSothe/Finanzas) (offline PWA).
+Open to: Windows systems and automation, or .NET roles · Vigo, remote or relocation.
+
 <div align="center">
 
 <img src="assets/banner.jpg" width="100%" alt="Sothe" />
@@ -38,7 +42,7 @@ links its tests, so you can judge the result instead of taking my word for it.
 **Windows tuning tool, MIT.** 70 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
 so overlapping tweaks cannot leave the system wrong (a real bug I found, reproduced and fixed). Signed auto-update,
 hardened data folder, calibrated timer resolution.
-<br/><sub>WPF · .NET 8 · P/Invoke · **172 tests, 87.5 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
+<br/><sub>WPF · .NET 8 · P/Invoke · **196 tests, 87.5 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
 
 </td>
 <td width="33%" valign="top">
@@ -46,7 +50,7 @@ hardened data folder, calibrated timer resolution.
 ### [SignedUpdater](https://github.com/ImSothe/SignedUpdater)
 **Safe self-update from GitHub Releases.** ECDSA-signed manifest, streaming SHA-256 check under a size cap, host allow-list,
 rollback-safe swap. Written up with its threat model **and its limits**.
-<br/><sub>.NET 8 · security · 13 tests · MIT</sub>
+<br/><sub>.NET 8 · security · 17 tests · MIT</sub>
 
 </td>
 <td width="33%" valign="top">
