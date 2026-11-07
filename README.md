@@ -17,12 +17,9 @@ Open to: Windows systems and automation, or .NET roles · Spain, remote or reloc
 
 ## 👋 About
 
-I build things from the ground up and ship them: a Windows tuning tool that can undo what it does, a self-updater that refuses
-unsigned binaries, an expense app that works offline. I care about software that behaves on real machines, so most of what I
-write comes with tests and an honest list of its limits.
+Systems & software builder. I like building from the ground up: Windows internals and native APIs on one side, 3D on the web on the other, and automation tying it together. I ship things I actually use: a tuning tool that can undo everything it does, an updater that refuses unsigned binaries, an expense app that works offline.
 
-**How I work:** I design, specify, test and verify; AI assistants (Claude Code) write much of the code. Every project below says so and
-links its tests, so you can judge the result instead of taking my word for it.
+I work with AI assistance (Claude Code) as a pair programmer: I decide what gets built, how it must behave and how it is verified. Every project links its tests and lists its own limits, so you can check the result instead of taking my word for it.
 
 ## ⭐ Featured
 
