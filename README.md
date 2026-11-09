@@ -36,7 +36,7 @@ I work with AI assistance (Claude Code) as a pair programmer: I decide what gets
 **Windows tuning tool, MIT.** 84 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
 so overlapping tweaks cannot leave the system wrong (a real bug I found, reproduced and fixed). Signed auto-update,
 hardened data folder, calibrated timer resolution.
-<br/><sub>WPF · .NET 8 · P/Invoke · **196 tests, 87.2 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
+<br/><sub>WPF · .NET 8 · P/Invoke · **206 tests, 87.5 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
 
 </td>
 <td width="33%" valign="top">
