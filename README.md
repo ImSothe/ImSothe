@@ -3,7 +3,7 @@
 # Ángel Baz Monteiro
 
 **Systems technician who builds secure Windows tools in C# / .NET.**<br/>
-[Toji](https://github.com/ImSothe/Toji-Windows-Optimizer) (70 reversible tweaks) · [SignedUpdater](https://github.com/ImSothe/SignedUpdater) (signed auto-update) · [Finanzas](https://github.com/ImSothe/Finanzas) (offline PWA).<br/>
+[Toji](https://github.com/ImSothe/Toji-Windows-Optimizer) (84 reversible tweaks) · [SignedUpdater](https://github.com/ImSothe/SignedUpdater) (signed auto-update) · [Finanzas](https://github.com/ImSothe/Finanzas) (offline PWA).<br/>
 Open to: Windows systems and automation, or .NET roles · Spain, remote or relocation.
 
 <img src="https://skillicons.dev/icons?i=cs,dotnet,powershell,js,nodejs,react,threejs,python,git,github&theme=dark" alt="C#, .NET, PowerShell, JavaScript, Node.js, React, Three.js, Python, Git" />
@@ -33,7 +33,7 @@ I work with AI assistance (Claude Code) as a pair programmer: I decide what gets
 <td width="33%" valign="top">
 
 ### [Toji](https://github.com/ImSothe/Toji-Windows-Optimizer)
-**Windows tuning tool, MIT.** 70 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
+**Windows tuning tool, MIT.** 84 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
 so overlapping tweaks cannot leave the system wrong (a real bug I found, reproduced and fixed). Signed auto-update,
 hardened data folder, calibrated timer resolution.
 <br/><sub>WPF · .NET 8 · P/Invoke · **196 tests, 87.5 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
