@@ -33,7 +33,7 @@ I work with AI assistance (Claude Code) as a pair programmer: I decide what gets
 <td width="33%" valign="top">
 
 ### [Toji](https://github.com/ImSothe/Toji-Windows-Optimizer)
-**Windows tuning tool, MIT.** 84 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
+**Windows tuning tool, source available.** 84 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
 so overlapping tweaks cannot leave the system wrong (a real bug I found, reproduced and fixed). Signed auto-update,
 hardened data folder, calibrated timer resolution.
 <br/><sub>WPF · .NET 8 · P/Invoke · **206 tests, 87.5 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
@@ -52,7 +52,7 @@ rollback-safe swap. Written up with its threat model **and its limits**.
 ### [Finanzas](https://github.com/ImSothe/Finanzas) · [live](https://imsothe.github.io/Finanzas/)
 **Expense PWA on your own Google Sheet.** Log an expense in 3 seconds, or photograph a receipt and let Gemini itemise it.
 Offline queue with idempotent replay, hardened Apps Script backend.
-<br/><sub>PWA · Apps Script · Gemini · **136 tests** · MIT</sub>
+<br/><sub>PWA · Apps Script · Gemini · **133 tests**</sub>
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ Offline queue with idempotent replay, hardened Apps Script backend.
 |---|---|---|
 | **[WindowsTimerResolution](https://github.com/ImSothe/WindowsTimerResolution)** | `NtSetTimerResolution` wrapper with explicit release and **auto-calibration**. Measured: `Sleep(1)` 15.6 ms → 1.5 ms held, 1.2 ms calibrated. Also documents what did *not* work. | .NET 8 · 13 tests · MIT |
 | **[AD Hardware Inventory](https://github.com/ImSothe/AD-Hardware-Inventory)** | Agentless hardware inventory for a Windows domain in one read-only PowerShell script (AD list → parallel WinRM/CIM → CSV). Run in a real 26-computer domain; unreachable machines are reported, not dropped. | PowerShell · MIT |
-| **[AI Hoodie Studio](https://github.com/ImSothe/AI-Hoodie-Studio)** | 3D hoodie configurator: place graphics on a 3D garment, pick the technique per piece, export a production dossier PDF. | Next.js 16 · three.js · Fabric.js · prototype · MIT |
+| **[AI Hoodie Studio](https://github.com/ImSothe/AI-Hoodie-Studio)** | 3D hoodie configurator: place graphics on a 3D garment, pick the technique per piece, export a production dossier PDF. | Next.js 16 · three.js · Fabric.js · prototype |
 | **[Industrial Web Template](https://github.com/ImSothe/Industrial-Web-Template)** | B2B 3D configurator I built on my own as a proposal for a prospective client (no agreement reached; the code is mine), with a hardened reference API (parameterized SQL, XSS/path-traversal defenses, lockout). | Three.js · GSAP · Node · MIT |
 | **[sheetmetal-geometry](https://github.com/ImSothe/sheetmetal-geometry)** | Pure-JS sheet-metal maths: chained bends, K-factor allowance, flat patterns, boolean-merged cut outlines. | JS · 13 tests · MIT |
 | **[Jarvis Project](https://github.com/ImSothe/Jarvis-Project-by-Sothe)** | Voice-driven personal AI assistant for Windows on the open-source [OpenJarvis](https://github.com/open-jarvis/OpenJarvis) framework: native app, local wake-word filter, a tool router that cuts tool-definition tokens per request by up to ~85 %. | Python · Gemini · Apache-2.0 base |
