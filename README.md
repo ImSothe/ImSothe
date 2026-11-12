@@ -62,6 +62,7 @@ Offline queue with idempotent replay, hardened Apps Script backend.
 
 | Project | What it is | Stack · proof |
 |---|---|---|
+| **[foodie](https://github.com/ImSothe/foodie)** · [live](https://imsothe.github.io/foodie/) | Nutrition tracker PWA, in progress: every food is stored as composition per 100 g plus grams, so fixing a portion with a slider recalculates calories, macros and 18 nutrients on the device. Local-first and offline today; sign-in and photo logging are next. Security suite with 33,000 fuzzed inputs and a threat model that lists what is not defended. | Vanilla JS · no dependencies · **169 tests, 98 % line coverage** |
 | **[WindowsTimerResolution](https://github.com/ImSothe/WindowsTimerResolution)** | `NtSetTimerResolution` wrapper with explicit release and **auto-calibration**. Measured: `Sleep(1)` 15.6 ms → 1.5 ms held, 1.2 ms calibrated. Also documents what did *not* work. | .NET 8 · 13 tests · MIT |
 | **[AD Hardware Inventory](https://github.com/ImSothe/AD-Hardware-Inventory)** | Agentless hardware inventory for a Windows domain in one read-only PowerShell script (AD list → parallel WinRM/CIM → CSV). Run in a real 26-computer domain; unreachable machines are reported, not dropped. | PowerShell · MIT |
 | **[AI Hoodie Studio](https://github.com/ImSothe/AI-Hoodie-Studio)** | 3D hoodie configurator: place graphics on a 3D garment, pick the technique per piece, export a production dossier PDF. | Next.js 16 · three.js · Fabric.js · prototype |
