@@ -3,7 +3,7 @@
 # Ángel Baz Monteiro
 
 **Systems technician who builds secure Windows tools in C# / .NET.**<br/>
-[Toji](https://github.com/ImSothe/Toji-Windows-Optimizer) (84 reversible tweaks) · [SignedUpdater](https://github.com/ImSothe/SignedUpdater) (signed auto-update) · [Finanzas](https://github.com/ImSothe/Finanzas) (offline PWA).<br/>
+[Toji](https://github.com/ImSothe/Toji-Windows-Optimizer) (84 reversible tweaks) · [SignedUpdater](https://github.com/ImSothe/SignedUpdater) (signed auto-update) · [foodie](https://github.com/ImSothe/foodie) (photo-to-macros PWA).<br/>
 Open to: Windows systems and automation, or .NET roles · Spain, remote or relocation.
 
 <img src="https://skillicons.dev/icons?i=cs,dotnet,powershell,js,nodejs,react,threejs,python,git,github&theme=dark" alt="C#, .NET, PowerShell, JavaScript, Node.js, React, Three.js, Python, Git" />
@@ -49,10 +49,9 @@ rollback-safe swap. Written up with its threat model **and its limits**.
 </td>
 <td width="33%" valign="top">
 
-### [Finanzas](https://github.com/ImSothe/Finanzas) · [live](https://imsothe.github.io/Finanzas/)
-**Expense PWA on your own Google Sheet.** Log an expense in 3 seconds, or photograph a receipt and let Gemini itemise it.
-Offline queue with idempotent replay, hardened Apps Script backend.
-<br/><sub>PWA · Apps Script · Gemini · **133 tests**</sub>
+### [foodie](https://github.com/ImSothe/foodie) · [live](https://imsothe.github.io/foodie/)
+**Nutrition PWA: photo, barcode or search, then fix the portion with a slider.** Every food is composition per 100 g plus grams, so edits recalculate 20+ nutrients on the device with no AI call. Gemini through Firebase AI Logic behind App Check, per-record Google sync, strict CSP; a security suite fuzzed with 33,000 inputs and a threat model that lists what it does not defend.
+<br/><sub>Vanilla JS · no runtime dependencies · **318 tests** · CodeQL · source-available</sub>
 
 </td>
 </tr>
@@ -62,7 +61,7 @@ Offline queue with idempotent replay, hardened Apps Script backend.
 
 | Project | What it is | Stack · proof |
 |---|---|---|
-| **[foodie](https://github.com/ImSothe/foodie)** · [live](https://imsothe.github.io/foodie/) | Nutrition tracker PWA, in progress: every food is stored as composition per 100 g plus grams, so fixing a portion with a slider recalculates calories, macros and 18 nutrients on the device. Local-first and offline today; sign-in and photo logging are next. Security suite with 33,000 fuzzed inputs and a threat model that lists what is not defended. | Vanilla JS · no dependencies · **169 tests, 98 % line coverage** |
+| **[Finanzas](https://github.com/ImSothe/Finanzas)** · [live](https://imsothe.github.io/Finanzas/) | Expense PWA on your own Google Sheet: log an expense in 3 seconds, or photograph a receipt and let Gemini itemise it. Offline queue with idempotent replay, hardened Apps Script backend. | PWA · Apps Script · Gemini · 133 tests |
 | **[WindowsTimerResolution](https://github.com/ImSothe/WindowsTimerResolution)** | `NtSetTimerResolution` wrapper with explicit release and **auto-calibration**. Measured: `Sleep(1)` 15.6 ms → 1.5 ms held, 1.2 ms calibrated. Also documents what did *not* work. | .NET 8 · 13 tests · MIT |
 | **[AD Hardware Inventory](https://github.com/ImSothe/AD-Hardware-Inventory)** | Agentless hardware inventory for a Windows domain in one read-only PowerShell script (AD list → parallel WinRM/CIM → CSV). Run in a real 26-computer domain; unreachable machines are reported, not dropped. | PowerShell · MIT |
 | **[AI Hoodie Studio](https://github.com/ImSothe/AI-Hoodie-Studio)** | 3D hoodie configurator: place graphics on a 3D garment, pick the technique per piece, export a production dossier PDF. | Next.js 16 · three.js · Fabric.js · prototype |
