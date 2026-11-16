@@ -51,7 +51,7 @@ rollback-safe swap. Written up with its threat model **and its limits**.
 
 ### [foodie](https://github.com/ImSothe/foodie) · [live](https://imsothe.github.io/foodie/)
 **Nutrition PWA: photo, barcode or search, then fix the portion with a slider.** Every food is composition per 100 g plus grams, so edits recalculate 20+ nutrients on the device with no AI call. Gemini through Firebase AI Logic behind App Check, **end-to-end encrypted** Google sync (WebCrypto, passphrase only the user knows), strict CSP; Firestore rules **run against the real emulator in CI**, and a threat model that lists what it does not defend.
-<br/><sub>Vanilla JS · no runtime dependencies · **462 tests** · CodeQL · source-available</sub>
+<br/><sub>Vanilla JS · no runtime dependencies · **464 tests** · CodeQL · source-available</sub>
 
 </td>
 </tr>
