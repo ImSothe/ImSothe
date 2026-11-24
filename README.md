@@ -17,7 +17,7 @@ Open to: Windows systems and automation, or .NET roles · Spain, remote or reloc
 
 ## 👋 About
 
-Systems & software builder. I like building from the ground up: Windows internals and native APIs on one side, 3D on the web on the other, and automation tying it together. I ship things I actually use: a monitor that opens the GLPI ticket before the user calls, an AD audit that never writes to the directory, a tuning tool that can undo everything it does.
+I build my own tools for the systems I run: Windows internals and native APIs, Active Directory and GLPI automation, and security checks that prove what they claim. I ship things I actually use: a monitor that opens the GLPI ticket before the user calls, an AD audit that never writes to the directory, a tuning tool that can undo everything it does.
 
 I work with AI assistance (Claude Code) as a pair programmer: I decide what gets built, how it must behave and how it is verified. Every project links its tests and lists its own limits, so you can check the result instead of taking my word for it.
 
@@ -33,26 +33,22 @@ I work with AI assistance (Claude Code) as a pair programmer: I decide what gets
 <td width="33%" valign="top">
 
 ### [Toji](https://github.com/ImSothe/Toji-Windows-Optimizer)
-**Windows tuning tool, source available.** 84 tweaks, each stored as data. Backups are written *before* every change and undone **LIFO**,
-so overlapping tweaks cannot leave the system wrong (a real bug I found, reproduced and fixed). Signed auto-update,
-hardened data folder, calibrated timer resolution.
-<br/><sub>WPF · .NET 8 · P/Invoke · **206 tests, 87.5 % line coverage** (non-UI), verified apply/revert on a real PC</sub>
+**Windows tuning tool that can undo everything it does.** 84 tweaks; backups written *before* each change and undone **LIFO**, so overlapping tweaks cannot leave the system wrong.
+<br/><sub>WPF · .NET 8 · **206 tests** · apply/revert verified on a real PC</sub>
 
 </td>
 <td width="33%" valign="top">
 
 ### [GLPI Proactive Monitor](https://github.com/ImSothe/GLPI-Proactive-Monitor)
-**Opens the GLPI ticket before the user calls.** Windows (PowerShell) and Linux (Bash/systemd) agents check free disk, critical services, reboots pending for weeks and backup age. Each ticket is linked to the computer, assigned to the right group and carries a **diagnostic file**; one ticket per problem, a follow-up if it lasts, a note when it recovers.
-Running on a **real GLPI 11 server**, where it caught a stopped `cron`, restarted it and logged it.
-<br/><sub>PowerShell · Bash · GLPI 11 REST API · least-privilege API user · shellcheck / PSScriptAnalyzer clean · MIT. Windows-only checks pending a pilot machine</sub>
+**Opens the GLPI ticket before the user calls.** Windows and Linux agents check disk, services, pending reboots and backups; each ticket arrives linked, assigned and with a diagnostic file. **Running on a real GLPI 11 server.**
+<br/><sub>PowerShell · Bash · GLPI REST API · MIT</sub>
 
 </td>
 <td width="33%" valign="top">
 
 ### [AD Security Audit](https://github.com/ImSothe/AD-Security-Audit)
-**Read-only Active Directory hygiene audit.** 29 red/amber/green checks (inactive and ghost accounts, leavers still in groups, Domain Admins, Kerberoasting, dangerous delegation, unsupported Windows, orphaned GPOs) and an emailable HTML report with a recommended action per finding.
-**Run against a live production domain:** all 29 checks completed, nothing written, findings kept private. Lab mode with a fictional domain so anyone can try it.
-<br/><sub>PowerShell · **146 tests, mutation-tested** · a test fails the build if a write cmdlet appears · CI · MIT</sub>
+**Read-only Active Directory hygiene audit.** 29 red/amber/green checks and an HTML report with an action per finding. **Run on a live production domain**, nothing written.
+<br/><sub>PowerShell · **146 tests**, mutation-tested · CI · MIT</sub>
 
 </td>
 </tr>
@@ -62,13 +58,16 @@ Running on a **real GLPI 11 server**, where it caught a stopped `cron`, restarte
 
 | Project | What it is | Stack · proof |
 |---|---|---|
-| **[Automate-Active-Directory](https://github.com/ImSothe/Automate-Active-Directory)** | Joiners and leavers for AD, NTFS shares and Microsoft 365 (Graph): department and job title decide OU, groups, folders and licences from one JSON file. Privileged groups detected by SID can never be granted; leavers get disabled, sessions revoked and licences released in the right order. Hash-chained audit log, hardened local web UI, Lab mode. | PowerShell · Graph · 78 Pester tests + 47-check smoke test, mutation-tested · CI on PS 5.1 / 7 · MIT |
-| **[ZeroTouch Windows Provisioning](https://github.com/ImSothe/ZeroTouch-Windows-Provisioning)** | New PC ready for its department in one command: drivers, silent winget apps, network printers, security baseline (BitLocker with stored key, SMBv1 off, firewall, bloatware) and a printable handover form. From a USB stick or as an Intune Win32 app with Autopilot. `-WhatIf` everywhere. | PowerShell · winget · Intune · 150 tests · CI incl. real Windows runner · MIT |
+| **[Automate-Active-Directory](https://github.com/ImSothe/Automate-Active-Directory)** | Joiners and leavers for AD, NTFS shares and Microsoft 365: department and job title decide groups, folders and licences; privileged groups can never be granted; hash-chained audit log, Lab mode. | PowerShell · Graph · 78 Pester tests + 47-check smoke test · CI · MIT |
+| **[ZeroTouch Windows Provisioning](https://github.com/ImSothe/ZeroTouch-Windows-Provisioning)** | New PC ready for its department in one command: drivers, winget apps, printers, security baseline and a handover form to sign. From a USB stick or as an Intune Win32 app. | PowerShell · winget · Intune · 150 tests · CI · MIT |
 | **[AD Hardware Inventory](https://github.com/ImSothe/AD-Hardware-Inventory)** | Agentless hardware inventory for a Windows domain in one read-only PowerShell script (AD list → parallel WinRM/CIM → CSV). Run in a real 26-computer domain; unreachable machines are reported, not dropped. | PowerShell · MIT |
 | **[SignedUpdater](https://github.com/ImSothe/SignedUpdater)** | Safe self-update from GitHub Releases: ECDSA-signed manifest, streaming SHA-256 check under a size cap, host allow-list, rollback-safe swap. Written up with its threat model **and its limits**. | .NET 8 · security · 17 tests · MIT |
 | **[WindowsTimerResolution](https://github.com/ImSothe/WindowsTimerResolution)** | `NtSetTimerResolution` wrapper with explicit release and **auto-calibration**. Measured: `Sleep(1)` 15.6 ms → 1.5 ms held, 1.2 ms calibrated. Also documents what did *not* work. | .NET 8 · 13 tests · MIT |
 
-## 📱 Live apps
+<details>
+<summary><b>📱 Live apps: foodie, Ascend, Finanzas</b></summary>
+
+<br/>
 
 | App | What it is | Stack · proof |
 |---|---|---|
@@ -76,7 +75,12 @@ Running on a **real GLPI 11 server**, where it caught a stopped `cron`, restarte
 | **[Ascend](https://github.com/ImSothe/ascend)** · [live](https://imsothe.github.io/ascend/) | Gym progression PWA styled as an RPG: each session is a mission, double progression decides when the load goes up, rule-based supervision flags stalls and deloads, and an on-request Gemini review reads the log (and progress photos kept on the device). Optional Google sign-in with Firestore sync. | PWA · Firebase · Gemini · 68 tests (unit, Firestore emulator, Playwright) |
 | **[Finanzas](https://github.com/ImSothe/Finanzas)** · [live](https://imsothe.github.io/Finanzas/) | Expense PWA on your own Google Sheet: log an expense in 3 seconds, or photograph a receipt and let Gemini itemise it. Offline queue with idempotent replay, hardened Apps Script backend. | PWA · Apps Script · Gemini · 133 tests |
 
-## 🛠️ More work
+</details>
+
+<details>
+<summary><b>🛠️ More work: web, 3D and AI</b></summary>
+
+<br/>
 
 | Project | What it is | Stack · proof |
 |---|---|---|
@@ -85,8 +89,10 @@ Running on a **real GLPI 11 server**, where it caught a stopped `cron`, restarte
 | **[sheetmetal-geometry](https://github.com/ImSothe/sheetmetal-geometry)** | Pure-JS sheet-metal maths: chained bends, K-factor allowance, flat patterns, boolean-merged cut outlines. | JS · 13 tests · MIT |
 | **[Jarvis Project](https://github.com/ImSothe/Jarvis-Project-by-Sothe)** | Voice-driven personal AI assistant for Windows on the open-source [OpenJarvis](https://github.com/open-jarvis/OpenJarvis) framework: native app, local wake-word filter, a tool router that cuts tool-definition tokens per request by up to ~85 %. | Python · Gemini · Apache-2.0 base |
 
+</details>
+
 <details>
-<summary><b>Products built with a partner (code private, showcase only)</b></summary>
+<summary><b>🤝 Products built with a partner (code private, showcase only)</b></summary>
 
 <br/>
 
