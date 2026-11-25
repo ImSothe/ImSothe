@@ -34,7 +34,7 @@ I work with AI assistance (Claude Code) as a pair programmer: I decide what gets
 
 ### [Toji](https://github.com/ImSothe/Toji-Windows-Optimizer)
 **Windows tuning tool that can undo everything it does.** 84 tweaks; backups written *before* each change and undone **LIFO**, so overlapping tweaks cannot leave the system wrong.
-<br/><sub>WPF · .NET 8 · **206 tests** · apply/revert verified on a real PC</sub>
+<br/><sub>WPF · .NET 8 · **209 tests** · apply/revert verified on a real PC</sub>
 
 </td>
 <td width="33%" valign="top">
